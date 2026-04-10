@@ -2,7 +2,7 @@
 name = "cuda-contract"
 version = "0.1.0"
 edition = "2021"
-description = "SLA management — QoS tiers, compliance tracking, penalties"
+description = "SLA management with compliance tracking"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-contract"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
