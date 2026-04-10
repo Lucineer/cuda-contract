@@ -2,7 +2,12 @@
 name = "cuda-contract"
 version = "0.1.0"
 edition = "2021"
-description = "Agent contracts — SLA management, capability guarantees, quality-of-service, and inter-agent agreements"
+description = "SLA management — QoS tiers, compliance tracking, penalties"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-contract"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
