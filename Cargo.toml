@@ -1,0 +1,8 @@
+[package]
+name = "cuda-contract"
+version = "0.1.0"
+edition = "2021"
+description = "Agent contracts — SLA management, capability guarantees, quality-of-service, and inter-agent agreements"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
